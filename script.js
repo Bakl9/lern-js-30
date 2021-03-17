@@ -15,3 +15,11 @@ let admin = user;
 // home.name = 'ilysha'
 
 // alert(home.name)
+
+
+let user = { walls: 'brown' };
+
+let permissions1 = { canView: true};
+let permissions2 = { canView: true};
+
+Object.assign (user, permissions1, permissions2);
